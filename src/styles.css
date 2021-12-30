@@ -8,7 +8,7 @@
   margin: 0;
 }
 .content {
-  background-image: linear-gradient(to right, #34ebcf, #3deb34);
+  background-color: #2c5f2dff;
   height: 100vh;
   width: 100vw;
 }
@@ -20,32 +20,37 @@
 }
 
 .container input {
+  border: none;
+  background-color: #f2f2f2;
+  padding: 12px;
+  border-radius: 3px;
   margin: 30px;
-  height: 2rem;
+  font-size: 1rem;
 }
 .container button:hover {
   background-color: #121212;
 }
 .container button {
+  border: none;
   width: 20%;
-  background-color: black;
+  background-color: rgb(66, 64, 64);
   color: white;
-  font-size: 1rem;
-  border: 1px black solid;
-  border-radius: 5px;
-  padding: 5px;
+  font-size: 1.1rem;
+  border-radius: 3px;
+  padding: 8px;
   margin: 10px;
 }
 
 .container p {
+  display: flex;
   font-size: 2rem;
-  border: 1px black solid;
-  padding: 20px;
+  align-items: center;
+  justify-content: center;
   height: 10rem;
-  width: 14rem;
-  text-align: center;
+  width: 10rem;
   margin: 30px;
   border-radius: 100px;
-  background-color: black;
-  color: white;
+  border: 2px white solid;
+  background-color: #ffe77aff;
+  color: black;
 }
